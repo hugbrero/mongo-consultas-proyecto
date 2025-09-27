@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+set -e
+docker exec -it mongodb mongosh -u root -p example --authenticationDatabase admin --eval "load('/workspace/queries/mexico_mayor25.js'); load('/workspace/queries/promedio_compras.js'); load('/workspace/colecciones/clientesVIP_view.js'); load('/workspace/colecciones/pedidosActivos_view.js'); load('/workspace/proyecto_final/pedidosUltimos30_view.js'); load('/workspace/proyecto_final/indexes.js'); print('OK: scripts ejecutados'); "

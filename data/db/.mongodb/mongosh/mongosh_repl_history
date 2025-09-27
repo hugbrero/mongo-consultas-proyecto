@@ -1,0 +1,26 @@
+exit
+db.pedidosUltimos30.find().sort({fecha:-1}).pretty();
+load('/workspace/proyecto_final/indexes.js');
+cls
+clear
+load('/workspace/proyecto_final/pedidosUltimos30_view.js');
+db.pedidosActivos.find().pretty();
+db.clientesVIP.find().pretty();
+load('/workspace/colecciones/pedidosActivos_view.s')
+load('/workspace/colecciones/clientesVIP_view.js')
+load('/workspace/queries/promedio_compras.js')
+load('/workspace/queries/mexico_mayor25.js')
+use('tienda')
+exit
+docker compose -f docker/docker-compose.yml down
+db.pedidosUltimos30.find().sort({fecha:-1}).pretty();
+load('/workspace/proyecto_final/indexes.js');
+load('/workspace/proyecto_final/indexes.js)');
+load('/workspace/proyecto_final/pedidosUltimos30_view.js');
+db.pedidosActivos.find().pretty();
+db.clientesVIP.find().pretty();
+load ('/workspace/colecciones/pedidosActivos_view.js');
+load ('/workspace/colecciones/clientesVIP_view.js');
+load ('/workspace/queries/promedio_compras.js');
+load('/workspace/queries/mexico_mayor25.js');
+use ('tienda')
